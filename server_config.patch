@@ -1,0 +1,20 @@
+--- a/src/server/server_config.rs
++++ b/src/server/server_config.rs
+@@ -42,7 +42,7 @@ impl Default for Config {
+             key_confirmed: false,
+             key_confirmed_time: Default::default(),
+             server_id: "".to_owned(),
+-            direct_access_port: 0,
++            direct_access_port: 21118,
+             disable_audio: false,
+             disable_clipboard: false,
+             disable_file_transfer: false,
+@@ -50,7 +50,7 @@ impl Default for Config {
+             enable_record_session: false,
+             temporary_password: "".to_owned(),
+             temporary_password_saved_time: 0,
+-            api_server: "".to_owned(),
++            api_server: "https://rustdesk.com/api/".to_owned(),
+             rendezvous_server: "".to_owned(),
+             custom_rendezvous_server: "".to_owned(),
+         }

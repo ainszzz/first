@@ -1,0 +1,13 @@
+--- a/src/client/client_config.rs
++++ b/src/client/client_config.rs
+@@ -85,8 +85,8 @@ impl Default for Config {
+             size: Size::default(),
+             view_style: default_view_style(),
+             scroll_style: default_scroll_style(),
+-            enable_direct_ip: false,
+-            enable_remote_config: false,
++            enable_direct_ip: true,
++            enable_remote_config: true,
+             direct_server_ip: None,
+             custom_rendezvous_server: "".to_owned(),
+             relay_server: "".to_owned(),

@@ -1,0 +1,28 @@
+# RustDesk Configuration File
+# This configuration file contains custom settings for the RustDesk client
+
+[general]
+# Enable direct IP access by default
+enable_direct_ip = true
+
+# Enable remote configuration modification by default
+enable_remote_config = true
+
+# Default port for direct connections
+direct_access_port = 21118
+
+[ui]
+# Display both connection methods in the UI
+show_direct_ip = true
+show_id_connection = true
+
+[security]
+# Security warning: Enabling direct IP access might increase security risks
+# if not properly secured with strong passwords and proper network configuration
+# It is recommended to use this in a controlled environment
+
+[network]
+# Default RustDesk public servers (can be changed if you're using self-hosted relay)
+relay_server = ""
+rendezvous_server = ""
+api_server = "https://rustdesk.com/api/"

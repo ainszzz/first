@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="#0078d4" />
+  <circle cx="250" cy="250" r="220" fill="#ffffff" />
+  
+  <!-- Computer Screen Base -->
+  <rect x="100" y="150" width="300" height="200" rx="10" fill="#333333" />
+  <rect x="110" y="160" width="280" height="170" rx="5" fill="#0078d4" />
+  
+  <!-- Computer Stand -->
+  <path d="M225,350 L275,350 L290,400 L210,400 Z" fill="#333333" />
+  <rect x="235" y="400" width="30" height="5" rx="2" fill="#333333" />
+  
+  <!-- Connection Lines Symbolizing Two Methods -->
+  <!-- Line 1: Direct IP Connection -->
+  <path d="M250,110 L250,30 M220,60 L250,30 L280,60" stroke="#ff6700" stroke-width="8" fill="none" stroke-linecap="round" />
+  
+  <!-- Line 2: ID-based Connection -->
+  <path d="M390,250 L470,250 M440,220 L470,250 L440,280" stroke="#00b300" stroke-width="8" fill="none" stroke-linecap="round" />
+  
+  <!-- IP Address Text -->
+  <text x="250" y="80" font-family="Arial" font-size="20" text-anchor="middle" fill="#ff6700">192.168.1.100</text>
+  
+  <!-- ID Text -->
+  <text x="410" y="290" font-family="Arial" font-size="20" text-anchor="middle" fill="#00b300">123 456 789</text>
+  
+  <!-- Icons inside the screen -->
+  <!-- IP Icon -->
+  <circle cx="200" cy="245" r="25" fill="rgba(255,103,0,0.2)" stroke="#ff6700" stroke-width="3" />
+  <text x="200" y="252" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6700">IP</text>
+  
+  <!-- ID Icon -->
+  <circle cx="300" cy="245" r="25" fill="rgba(0,179,0,0.2)" stroke="#00b300" stroke-width="3" />
+  <text x="300" y="252" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#00b300">ID</text>
+  
+  <!-- Center Divider -->
+  <line x1="250" y1="205" x2="250" y2="285" stroke="#ffffff" stroke-width="3" stroke-dasharray="5,5" />
+  
+  <!-- Custom RustDesk Label -->
+  <path d="M100,105 L400,105 L400,145 L100,145 Z" fill="#0078d4" />
+  <text x="250" y="135" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">CUSTOM RUSTDESK</text>
+</svg>
